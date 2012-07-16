@@ -1,0 +1,19 @@
+{
+	"name": "Youtube Live Search",
+	"version": "1.2",
+	"description": "Search in Real-Time for Youtube Videos with Auto Suggest and Animated Thumbs",
+	"update_url": "http://clients2.google.com/service/update2/crx",
+	"icons": {
+		"16": "icon-16.png",
+		"32": "icon-32.png",
+		"48": "icon-48.png",
+		"64": "icon-64.png",
+		"128": "icon-128.png"
+	},
+	"permissions" : ["tabs", "http://suggestqueries.google.com/*", "http://*.youtube.com/*", "http://video.google.com/*"],
+	"browser_action": {
+		"default_icon": "icon-32.png",
+		"default_title": "Youtube Live Search",
+		"popup": "search.html"
+	}
+}
